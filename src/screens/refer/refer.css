@@ -1,0 +1,42 @@
+.refer-heading {
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.refer-desc {
+    color: #cccccc;
+}
+
+.refer-btn {
+    transition: all ease 0.3s;
+}
+
+.refer-btn:active {
+    box-shadow: 10px 10px 0px rgb(0, 0, 0);
+}
+
+.refer-btn {
+    border: none;
+    background-color: rgb(252, 148, 13);
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.refer-code {
+    border: 1px dotted gray;
+    width: 120px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 0.8rem;
+    margin-bottom: 0.8rem;
+}

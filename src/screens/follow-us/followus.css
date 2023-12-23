@@ -1,0 +1,35 @@
+.follow-cards {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.follow-card {
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+  background-color: #283546;
+  padding: 0rem 1rem;
+  border-radius: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.follow-card div {
+    width: 50px;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.follow-card i {
+  border-radius: 50%;
+  font-size: 3rem;
+}
+
+.follow-card h2 {
+  font-size: 1rem;
+  font-weight: 600;
+}

@@ -1,0 +1,56 @@
+
+
+.user__details__section {
+    padding: 30px 1%;
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.user__pic {
+    height: 75px;
+    width: 75px;
+    border-radius: 70px;
+    overflow: hidden;
+}
+
+.user__details__section__right {
+    margin-left: 15px;
+}
+
+.user__details__section__right__col {
+    font-size: 15px;
+   color: #ded8d8;
+}
+
+.profile__records__section {
+    margin-top: 20px;
+}
+
+.profile__records__section__col {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2%;
+    width: 100%;
+}
+
+.profile__records__section__col__left {
+    display: flex;
+    align-items: center;
+    color: #ded8d8;
+}
+
+.profile__record__section__col__icon {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+}
+
+.profile__record__section__col__name {
+    margin-left: 15px;
+}
+
+.profile__records__section__col__right svg {
+    fill: #ded8d8 !important;
+}

@@ -1,0 +1,154 @@
+.recharge-history-container {
+  padding-top: 1rem;
+  color: #fff;
+  padding-bottom: 1rem;
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.recharge-history-container h2 {
+  font-weight: 400;
+  text-align: center;
+}
+
+.recharge-history-card-group {
+  margin-top: 1rem;
+}
+
+.recharge-history-card {
+  background-color: #283546;
+  margin-top: 0.5rem;
+  border-radius: 1rem;
+  padding: 0.2rem 0;
+}
+
+.recharge-history-card .top {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem 0.5rem;
+  padding-left: 0;
+}
+
+.recharge-history-card .top img {
+  width: 60px;
+  object-fit: contain;
+}
+
+.recharge-history-card .top div {
+  background-color: #4caf4c;
+  padding: 0.5rem 1rem;
+  border-radius: 0 0.7rem 0.7rem 0;
+}
+
+.recharge-history-card .top div p {
+  font-size: 1rem;
+}
+
+.recharge-history-card .bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem 1rem 1rem;
+}
+
+.recharge-history-card .bottom .amount {
+  display: flex;
+}
+
+
+.recharge-history-card .bottom .amount p {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+.gameHistory-btn-group {
+  display: flex;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.gameHistory-btn-group button {
+  border: none;
+  background: none;
+  padding: 0.6rem;
+  border-radius: 10px;
+  font-weight: 500;
+  color: #fff;
+  font-size: 1rem;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.gameHistory-activeBtn {
+  background-color: #fbaa79 !important;
+  color: black !important;
+  transition: all 0.3s ease-in-out !important;
+}
+
+.emptyImage {
+  display: flex;
+  min-height: 82vh;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out !important;
+}
+
+.emptyImage img {
+  width: 40%;
+}
+
+
+.withdrawal__records__section__record__top {
+  height: 1px;
+  width: 100%;
+  background: #706e6e3a;
+  margin-top: 20px;
+}
+
+.withdrawal__records__section__bottom {
+  padding: 15px 0;
+}
+
+.withdrawalRecords__container__box {
+  width: 100%;
+  padding: 0px 4%;
+  background: #f3f2ff;
+  border: 1.2px solid #c7c4fd;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.withdrawalRecords__container__box__top {
+  width: 100%;
+  border-bottom: 1px solid rgb(221, 218, 250);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.withdrawalRecords__container__box__top__top {
+  font-size: 13px;
+  color: #666;
+}
+
+.withdrawalRecords__container__box__top__bottom {
+  font-size: 14px;
+  margin-top: 8px;
+  color: #000;
+}
+
+.withdrawalRecords__container__box__bottom {
+  padding: 5px 0;
+}
+
+.withdrawalRecords__container__box__bottom__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: sans-serif;
+  font-size: 13px;
+  color: #666;
+}

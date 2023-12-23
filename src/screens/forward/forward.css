@@ -1,0 +1,121 @@
+.forward-modal {
+    border: 1px solid rgba(0, 255, 255, 0.239);
+    background: #1bb9c134;
+    border-radius: 10px;
+}
+
+.modal-btn-close {
+    background: none;
+    border: none;
+}
+
+.floating-btn {
+    width: 55px;
+    aspect-ratio: 1/1;
+    background: #fec007;
+    box-shadow: 0 10px 20px -10px #fec007;
+    transition: all 0.3s ease-in-out;
+    position: fixed;
+    bottom: 15%;
+}
+
+.floating-btn button {
+    background: none;
+    border: none;
+}
+
+.floating-btn button:focus {
+    outline: none;
+}
+
+.floating-btn:active {
+    scale: 1.2;
+    outline: none !important;
+}
+
+.floating-btn button i {
+    font-size: 2.5rem;
+    color: #f5f5f5;
+}
+
+.transaction-history-card {
+    background-color: #283546;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.transaction-history-card .info {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.transaction-history-card .info p:first-child {
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+}
+
+.transaction-history-card .info p:last-child {
+    color: #8f989e;
+}
+
+.transaction-history-card .amount {
+    font-weight: 600;
+    font-size: 1.05rem;
+}
+
+.bank-card {
+    margin-top: 2rem;
+    background-color: #283546;
+    padding: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 1rem;
+  }
+  
+  .bank-card p {
+    color: #778d9c;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1.2rem;
+  }
+  
+  .bank-card div {
+    width: 65px;
+    aspect-ratio: 1/1;
+    background-color: #0000002e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+  
+  }
+  
+  .bank-card i {
+    font-size: 30px;
+  }
+
+  .add-friend {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.357);
+    backdrop-filter: blur(4px);
+    height: 100vh;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  /* .add-friend  */

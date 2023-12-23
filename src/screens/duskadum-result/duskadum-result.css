@@ -1,0 +1,29 @@
+.result-history .header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #ffc565;
+}
+
+.result-history .value {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.result-history .value button {
+    /* background-color: #ffc565; */
+    width: 35px;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-image: url(/public/images/chip.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    font-size: 14px;
+    background-color: transparent;
+    border: none;
+}

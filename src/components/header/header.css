@@ -1,0 +1,31 @@
+.app__top__nav {
+    align-items: center;
+    display: flex;
+    height: 55px;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #071724;
+    right: 0;
+    left: 0;
+    padding: 0 12px;
+    z-index: 99;
+}
+
+.top__nav__cols {
+    color: #fff;
+    flex-basis: 25%;
+}
+
+.top__nav__back__btn {
+    align-items: center;
+    display: flex;
+    font-size: 35px;
+    height: 50px;
+}
+
+.top__nav__title {
+    font-size: 18px;
+    font-weight: 700;
+}

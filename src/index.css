@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@400;500;600;700;900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #071724;
+  color: #fff;
+}
+
+.container {
+  max-width: 400px;
+  /* padding-bottom: 10px; */
+  position: relative;
+  /* padding-top: 55px; */
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+
+.close-btn {
+  background: none;
+  border: none;
+  color: #fff;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

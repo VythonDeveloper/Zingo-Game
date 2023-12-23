@@ -1,0 +1,44 @@
+.keyboard-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 0.8rem 2rem ;
+    border-radius: 5px;
+    margin: 0;
+    /* max-width: 300px; */
+    /* margin: auto; */
+}
+
+.keyboard-container .number {
+    display: flex;
+    width: 70px;
+    aspect-ratio: 1/1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding: 1.3rem;
+    transition: all ease 0.3s;
+    border-radius: 50%;
+}
+
+.keyboard-container .number span {
+    color: var(--black, #42353B);
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    /* 60% */
+    letter-spacing: -0.01px;
+}
+
+.keyboard-container .delete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.keyboard-container .number:active {
+    background: #ffffff28;
+}

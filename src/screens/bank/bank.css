@@ -1,0 +1,191 @@
+.bank-card {
+  background-color: #283546;
+  padding: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 1rem;
+}
+
+.bankDetails-container .fa-building-columns {
+  font-size: 3rem;
+  background-color: #798f9d;
+  padding: 1.2rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.bank-card p {
+  color: #778d9c;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+.addAcountBtn {
+  position: absolute;
+  bottom: 6rem;
+  right: 0.5rem;
+  border: none;
+  background: linear-gradient(to right bottom,
+      rgb(255, 185, 9),
+      rgb(254, 64, 45));
+  padding: 0.1rem 1.2rem;
+  border-radius: 1rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #fff;
+}
+
+.addbank-icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  border-radius: 50%;
+}
+
+.addbank-icon i {
+  font-size: 3rem;
+  padding: 2rem;
+  background-color: #283546;
+  width: 120px;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.bankDetails-container label {
+  font-size: 1rem;
+}
+
+.all-bank {
+  padding-top: 0.8rem;
+}
+
+.bank-detail-card {
+  background-color: #283546;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.bank-detail-card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bank-detail-card-header button {
+  background: none;
+  border: none;
+  color: #f29898;
+  font-size: 1.3rem;
+}
+
+.bank-detail-card-header h3 {
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.bank-detail-card-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.bank-detail-card-info div p:first-child {
+  color: #868e9c;
+  font-weight: 500;
+}
+
+.bank-detail-card-info div p:last-child {
+  font-size: 1.1rem;
+}
+
+
+.up-input-outer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.up-input-outer label {
+  font-size: 17px;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #d8d7d7;
+}
+
+.up-input-outer input {
+  padding: 1rem;
+  background-color: #364049;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+  color: #fff;
+}
+
+.up-input-outer input:focus {
+  outline: none;
+}
+
+.up-input-outer input::placeholder {
+  color: #afb7ba;
+}
+
+@media screen and (max-width: 520px) {
+  .up-input-outer input {
+    padding: 0.8rem;
+  }
+
+  .up-input-outer label {
+    font-size: 16px;
+  }
+}
+
+
+.floating-btn {
+  width: 55px;
+  aspect-ratio: 1/1;
+  background: #fec007;
+  box-shadow: 0 10px 20px -10px #fec007;
+  transition: all 0.3s ease-in-out;
+  position: fixed;
+  bottom: 15%;
+  right: 2.5rem;
+}
+
+.floating-btn button {
+  background: none;
+  border: none;
+}
+
+.floating-btn button:focus {
+  outline: none;
+}
+
+.floating-btn:active {
+  scale: 1.2;
+  outline: none !important;
+}
+
+.floating-btn button i {
+  font-size: 2.5rem;
+  color: #f5f5f5;
+}
+
+.withdraw__btn {
+  height: 40px;
+  border-radius: 5px;
+  color: #fff;
+  border: 0;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 17px;
+  font-weight: 500;
+  background: rgb(252, 148, 13);
+}

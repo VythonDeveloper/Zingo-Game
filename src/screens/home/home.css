@@ -1,0 +1,104 @@
+.background-custom {
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.778)), url('../../assets/images/Wallpaper.png');
+  backdrop-filter: blur(10px);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-custom::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* backdrop-filter: blur(1.5px); */
+  z-index: 900;
+}
+
+
+.heading {
+  color: #fff;
+  margin-top: -2rem;
+}
+
+.heading h1 {
+  color: #fcf9f2;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  font-family: 'Lato', sans-serif;
+}
+
+.heading p {
+  color: #fcf9f2;
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.banner {
+  width: 100%;
+  min-height: 180px;
+}
+
+.banner img {
+  width: 100%;
+  margin-top: -0.8rem;
+}
+
+.games {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-top: 1.6rem;
+}
+.game {
+  border-radius: 30px;
+  width: 100%;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  
+  box-shadow:#1bb9c134 0px 8px 24px;
+  border: 1px solid rgba(0, 255, 255, 0.239);
+}
+
+.game img {
+  width: 100%;
+  -webkit-filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+}
+
+.game p {
+  color: #fcf9f2;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.commingSoon div {
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 40%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.2rem;
+}
+
+
+.commingSoon p {
+  color: #e4e4dc !important;
+}

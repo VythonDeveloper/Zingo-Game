@@ -1,0 +1,52 @@
+.withdrawal__records__section__record__top {
+    height: 1px;
+    width: 100%;
+    background: #706e6e3a;
+    margin-top: 20px;
+  }
+  
+  .withdrawal__records__section__bottom {
+    padding: 15px 0;
+  }
+  
+  .withdrawalRecords__container__box {
+    width: 100%;
+    padding: 0px 4%;
+    background: #f3f2ff;
+    border: 1.2px solid #c7c4fd;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .withdrawalRecords__container__box__top {
+    width: 100%;
+    border-bottom: 1px solid rgb(221, 218, 250);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+  }
+  
+  .withdrawalRecords__container__box__top__top {
+    font-size: 13px;
+    color: #666;
+  }
+  
+  .withdrawalRecords__container__box__top__bottom {
+    font-size: 14px;
+    margin-top: 8px;
+    color: #000;
+  }
+  
+  .withdrawalRecords__container__box__bottom {
+    padding: 5px 0;
+  }
+  
+  .withdrawalRecords__container__box__bottom__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #666;
+  }

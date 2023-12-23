@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,400;10..48,500;10..48,700;10..48,800&display=swap');
+
+.dkd-container {
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+.dkd-container .withdrawal__page__balance__section__top {
+    color: #434343;
+    font-size: 13px;
+  }
+  
+  .dkd-container .withdrawal__page__balance__section__bottom {
+    font-weight: 600;
+    font-size: 22px;
+    color: #000000;
+  }
+  
+
+  .withdrawal__amount__field {
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  
+  .withdrawal__field__header,
+  .withdrawal__records__section__bottom__header {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+  }
+
+  .withdrawal__input__field {
+    height: 50px;
+    width: 100%;
+    background: #0dfcfc34;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 7px;
+    color: #464545;
+  }
+  
+  .withdrawal__input__field__icon {
+    flex-basis: 65px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+  }
+  
+  .withdrawal__amount__field .input {
+    flex-basis: calc(100% - 65px);
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    outline: 0;
+    border: 0;
+    border-radius: 3px;
+    padding: 0 15px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-size: 22px;
+    color: #eaeaff;
+    display: flex;
+    align-items: center;
+  }
+
+  .withdraw__btn {
+    height: 40px;
+    background: #03a3ed;
+    border-radius: 5px;
+    color: #fff;
+    border: 0;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 500;
+  
+    background: rgb(252, 148, 13);
+  }
+
+  
+.withdrawal__records__section__record__top {
+  height: 1px;
+  width: 100%;
+  background: #706e6e3a;
+  margin-top: 20px;
+}
+
+.withdrawal__records__section__bottom {
+  padding: 15px 0;
+}
+
+  
+.withdrawalRecords__container__box {
+  width: 100%;
+  padding: 0px 4%;
+  background: #f3f2ff;
+  border: 1.2px solid #c7c4fd;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.withdrawalRecords__container__box__top {
+  width: 100%;
+  border-bottom: 1px solid rgb(221, 218, 250);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.withdrawalRecords__container__box__top__top {
+  font-size: 13px;
+  color: #666;
+}
+
+.withdrawalRecords__container__box__top__bottom {
+  font-size: 14px;
+  margin-top: 8px;
+  color: #000;
+}
+
+.withdrawalRecords__container__box__bottom {
+  padding: 5px 0;
+}
+
+.withdrawalRecords__container__box__bottom__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: sans-serif;
+  font-size: 13px;
+  color: #666;
+}
+
+.withdrawal__input__notes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  color: #000;
+}

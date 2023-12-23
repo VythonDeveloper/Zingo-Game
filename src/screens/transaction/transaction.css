@@ -1,0 +1,29 @@
+  .transaction-history-card {
+    background-color: #283546;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .transaction-history-card .info {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .transaction-history-card .info p:first-child {
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+  }
+
+  .transaction-history-card .info p:last-child {
+    color: #8f989e;
+  }
+
+  .transaction-history-card .amount{
+    font-weight: 600;
+    font-size: 1.05rem;
+  }
