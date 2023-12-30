@@ -194,7 +194,12 @@ const Recharge = () => {
             <div className="w-100 input">{amount}</div>
           </div>
 
-          <div className="withdrawal__input__notes">
+          <div
+            className="withdrawal__input__notes"
+            style={{
+              color: "white",
+            }}
+          >
             <p className="mb-0 mt-2">Bonus {rechargeBonus}%</p>
             <p className="mb-0 mt-2">-</p>
             <p className="mb-0 mt-2">( Lv1 Fees {level1Bonus}%</p>
